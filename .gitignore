@@ -10,3 +10,7 @@
 *.lai
 *.la
 *.a
+
+Makefile
+moc_*.cpp
+ui_*.h

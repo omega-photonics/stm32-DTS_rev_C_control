@@ -3,7 +3,8 @@
 
 #include <QMainWindow>
 #include <QSettings>
-#include "lusb0_usb.h"
+//#include "lusb0_usb.h"
+#include <usb.h>
 namespace Ui {
 class MainWindow;
 }

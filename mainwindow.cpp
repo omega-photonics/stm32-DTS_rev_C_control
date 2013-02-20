@@ -48,6 +48,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::WindowStaysOnTopHint);
 
     S = new QSettings("settings.ini", QSettings::IniFormat);
     ui->checkBox_led1->setChecked(S->value("LED1").toBool());
